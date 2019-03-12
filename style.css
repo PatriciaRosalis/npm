@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+*
+ {
+    color: white;
+    font-family: 'Arimo';
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+  }
+  
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+.logo-npm {
+    width: 190px;
+    margin: 25px;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+.top-left {
+  letter-spacing: 3px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.top-left a {
+  margin-left: 10px;
+  font-size: 35px;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+.background-one {
+    background-color: rgb(32, 101, 136);
+}
+
+.amazing-things {
+    width: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.button-sign {
+    background-color: rgb(240, 146, 51);
+    margin-bottom: 45px;
+    height: 48px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 45px;
+    border: 1px;
+    text-decoration: none;
+}
+
+.search-bar {
+    background-color: rgb(31, 82, 111);
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px;
+    border: 1px solid #bababa;
+}
+
+#search a {
+
+  border: 1px solid #bababa;
+  border-left: none;
+  text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+  background-color:rgb(32, 101, 136);
+  display: flex;
+  align-items: center;
+}
+
+header #search {
+  display: flex;
+ flex:1;
+}
+
+.background-one {
+  background-image: url("file:///C:/Users/patri/Desktop/images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+
+.amazing-things h2 {
+  font-size: 5.5em;
+  margin-bottom: 60px;
+}
+
+.amazing-things aside {
+  font-size: 2em;
+  padding-bottom: 25px;
+}
+
+.section-one {
+  margin: 140px;
+}
+
+.collab-div {
+  display: flex;
+  margin: 0 auto;
+}
+
+.collab-div .collab-item {
+  flex: 1;
+}
+
+.collab-item a {
+
+text-decoration: none;
+font-size: 1em;
+}
+
+.collab h2 {
+  font-size: 4.5em;
+}
+
+.collab ul {
+  font-size: 1.7em;
+}
+
+.collab p {
+  font-size: 25px;
+  color: white;
+}
+
+.collab {
+  background-color: rgb(39, 53, 71);
+}
+
+.collab button {
+  background-color: rgb(203, 56, 55);
+  font-size: 25px;
+  height: 48px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 45px;
+  margin-top: 15px;
+  border: 1px;
+} 
+
+.img-sec-two {
+  width: 100%;
+  margin: 10% auto 10% auto;
+}
+
+.background-two {
+  background-image: url("file:///C:/Users/patri/Desktop/images/forklift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 50px 0 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+  .background-two h2 {
+    font-size: 5.5em;
+    margin-bottom: 37px;
+  }
+
+  .install-button {
+    color: white;
+    background-color: rgb(49, 68, 88);
+    margin-right: 50%;
+    margin-bottom: 45px;
+    height: 48px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 45px;
+    border: 1px;
+}
+
+  .distribute {
+    margin: 140px;
+  }
+
+  .distribute p {
+    color:white;s
+  }
+
+  .background-two p {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+  }
+
+  .search-bear-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bear-logo a {
+  text-decoration: none;
+  }
+
+  .building {
+    text-align: center;
+    margin: 90px;
+  }
+
+  .all-tog {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+  }
+
+  .building h2, h3 ,p {
+    color: rgb(83, 88, 98);
+  }
+
+  .building p {
+    font-size: 1.3em;
+  }
+
+  .flex a {
+    color: rgb(208, 74, 73);
+  }
+
+  .flex p {
+    color: rgb(135, 145, 156);
+    font-size: 1.2em;
+  }
