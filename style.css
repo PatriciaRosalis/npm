@@ -105,7 +105,7 @@ header #search {
 }
 
 .background-one {
-  background-image: url("file:///C:/Users/patri/Desktop/images/city-scape.svg");
+  background-image: url(city-scape.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@ font-size: 1em;
 }
 
 .background-two {
-  background-image: url("file:///C:/Users/patri/Desktop/images/forklift.svg");
+  background-image: url(forklift.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
